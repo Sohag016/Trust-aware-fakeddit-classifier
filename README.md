@@ -84,14 +84,12 @@ The notebook saves the following artifacts to the `outputs/` directory:
 - `trust_aware_results.csv` — trust-calibrated decisions (Accept/Abstain/Reject)
 - `multiseed_robustness.csv`, `baseline_comparison.csv`, `weight_sensitivity_full_descriptive.csv` — robustness & sensitivity analyses
 
-## ⚠️ Notes
 
-- Cross-dataset generalization (STEP 45) requires a user-supplied external CSV with columns: `id, text, image_path, label`.
-- The weight-sensitivity sweep (STEP 44) is descriptive/illustrative only and should not be used to select final trust weights (this is handled separately via held-out validation in STEP 39).
 
-## 📄 License
+## 📄 Author
 
-Add your preferred license (e.g., MIT) here.
+Md. Sohag Hossain
+Data science & ML Engineer
 
 ## 🙏 Acknowledgments
 
